@@ -1,6 +1,6 @@
 # The Cow Pasture: Various boards and add-ons for the Macintosh LC and variants
 
-## [Cow-Flipper](cow-flipper)
+## [Cow-Flipper](cow-flipper/README.md)
 
 An adapter to flip the LC internal SCSI port by 180-degrees so devices like the original BlueSCSI can be plugged in with the OEM cable.
 
