@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name scsi-50-flipper)(type KiCad)(uri /Users/mnielsen/Documents/Kicad/scsi-50-flipper)(options "")(descr ""))
+)

@@ -1,0 +1,351 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3350 1900 3800 1900
+Wire Wire Line
+	3800 2000 3350 2000
+Wire Wire Line
+	3350 2100 3800 2100
+Wire Wire Line
+	3800 2200 3350 2200
+Wire Wire Line
+	3350 2300 3800 2300
+Wire Wire Line
+	3800 2400 3350 2400
+Wire Wire Line
+	3350 2500 3800 2500
+Wire Wire Line
+	3800 2600 3350 2600
+Wire Wire Line
+	3350 2700 3800 2700
+Wire Wire Line
+	3350 3100 3800 3100
+Wire Wire Line
+	3350 3400 3800 3400
+Wire Wire Line
+	3800 3600 3350 3600
+Wire Wire Line
+	3350 3700 3800 3700
+Wire Wire Line
+	3800 3800 3350 3800
+Wire Wire Line
+	3350 3900 3800 3900
+Wire Wire Line
+	3800 4000 3350 4000
+Wire Wire Line
+	3350 4100 3800 4100
+Wire Wire Line
+	3800 4200 3350 4200
+Wire Wire Line
+	3800 4300 3350 4300
+$Comp
+L power:GND #PWR0101
+U 1 1 60B312D5
+P 4300 4500
+F 0 "#PWR0101" H 4300 4250 50  0001 C CNN
+F 1 "GND" H 4305 4327 50  0000 C CNN
+F 2 "" H 4300 4500 50  0001 C CNN
+F 3 "" H 4300 4500 50  0001 C CNN
+	1    4300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60B3247B
+P 2850 4500
+F 0 "#PWR0102" H 2850 4250 50  0001 C CNN
+F 1 "GND" H 2855 4327 50  0000 C CNN
+F 2 "" H 2850 4500 50  0001 C CNN
+F 3 "" H 2850 4500 50  0001 C CNN
+	1    2850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60B32A2A
+P 3550 2800
+F 0 "#PWR0103" H 3550 2550 50  0001 C CNN
+F 1 "GND" H 3555 2627 50  0000 C CNN
+F 2 "" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 2800 50  0001 C CNN
+	1    3550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60B32FA6
+P 3550 3200
+F 0 "#PWR0104" H 3550 2950 50  0001 C CNN
+F 1 "GND" H 3555 3027 50  0000 C CNN
+F 2 "" H 3550 3200 50  0001 C CNN
+F 3 "" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60B33324
+P 3550 3500
+F 0 "#PWR0105" H 3550 3250 50  0001 C CNN
+F 1 "GND" H 3555 3327 50  0000 C CNN
+F 2 "" H 3550 3500 50  0001 C CNN
+F 3 "" H 3550 3500 50  0001 C CNN
+	1    3550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1900 4300 2000
+Connection ~ 4300 2000
+Wire Wire Line
+	4300 2000 4300 2100
+Connection ~ 4300 2100
+Wire Wire Line
+	4300 2100 4300 2200
+Connection ~ 4300 2200
+Wire Wire Line
+	4300 2200 4300 2300
+Connection ~ 4300 2300
+Wire Wire Line
+	4300 2300 4300 2400
+Connection ~ 4300 2400
+Wire Wire Line
+	4300 2400 4300 2500
+Connection ~ 4300 2500
+Wire Wire Line
+	4300 2500 4300 2600
+Connection ~ 4300 2600
+Wire Wire Line
+	4300 2600 4300 2700
+Connection ~ 4300 2700
+Wire Wire Line
+	4300 2700 4300 2800
+Connection ~ 4300 2800
+Wire Wire Line
+	4300 2800 4300 2900
+Connection ~ 4300 2900
+Wire Wire Line
+	4300 2900 4300 3000
+Wire Wire Line
+	4300 3200 4300 3300
+Connection ~ 4300 3300
+Wire Wire Line
+	4300 3300 4300 3400
+Connection ~ 4300 3400
+Wire Wire Line
+	4300 3400 4300 3500
+Connection ~ 4300 3500
+Wire Wire Line
+	4300 3500 4300 3600
+Connection ~ 4300 3600
+Wire Wire Line
+	4300 3600 4300 3700
+Connection ~ 4300 3700
+Wire Wire Line
+	4300 3700 4300 3800
+Connection ~ 4300 3800
+Wire Wire Line
+	4300 3800 4300 3900
+Connection ~ 4300 3900
+Wire Wire Line
+	4300 3900 4300 4000
+Connection ~ 4300 4000
+Wire Wire Line
+	4300 4000 4300 4100
+Connection ~ 4300 4100
+Wire Wire Line
+	4300 4100 4300 4200
+Connection ~ 4300 4200
+Wire Wire Line
+	4300 4200 4300 4300
+Connection ~ 4300 4300
+Wire Wire Line
+	4300 4300 4300 4500
+Wire Wire Line
+	3350 2800 3550 2800
+Connection ~ 3550 2800
+Wire Wire Line
+	3550 2800 3800 2800
+Wire Wire Line
+	3800 2800 3800 2900
+Connection ~ 3800 2800
+Connection ~ 3800 2900
+Wire Wire Line
+	3800 2900 3800 3000
+Wire Wire Line
+	3350 3200 3550 3200
+Connection ~ 3550 3200
+Wire Wire Line
+	3550 3200 3800 3200
+Wire Wire Line
+	3800 3300 3800 3200
+Connection ~ 3800 3200
+Wire Wire Line
+	3350 3300 3350 3200
+Wire Wire Line
+	3350 3500 3550 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3800 3500
+$Comp
+L scsi-connectors:SCSI_IDC-50_INITIATOR J2
+U 1 1 60B189FD
+P 4100 3100
+F 0 "J2" H 4150 4525 50  0000 C CNN
+F 1 "SCSI_IDC-50_INITIATOR" H 4150 4434 50  0000 C CNN
+F 2 "my library:idc-50-edge-male" H 4100 3100 50  0001 C CNN
+F 3 "~" H 4100 3100 50  0001 C CNN
+	1    4100 3100
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3350 3200
+Connection ~ 3350 2900
+Connection ~ 3350 2800
+Wire Wire Line
+	3350 2900 3350 2800
+Wire Wire Line
+	3350 3000 3350 2900
+Wire Wire Line
+	2850 4300 2850 4500
+Connection ~ 2850 4300
+Connection ~ 2850 4200
+Wire Wire Line
+	2850 4200 2850 4300
+Wire Wire Line
+	2850 4100 2850 4200
+Connection ~ 2850 4100
+Connection ~ 2850 4000
+Wire Wire Line
+	2850 4000 2850 4100
+Wire Wire Line
+	2850 3900 2850 4000
+Connection ~ 2850 3900
+Connection ~ 2850 3800
+Wire Wire Line
+	2850 3800 2850 3900
+Wire Wire Line
+	2850 3700 2850 3800
+Connection ~ 2850 3700
+Connection ~ 2850 3600
+Wire Wire Line
+	2850 3600 2850 3700
+Wire Wire Line
+	2850 3500 2850 3600
+Connection ~ 2850 3500
+Connection ~ 2850 3400
+Wire Wire Line
+	2850 3400 2850 3500
+Wire Wire Line
+	2850 3300 2850 3400
+Connection ~ 2850 3300
+Wire Wire Line
+	2850 3200 2850 3300
+Wire Wire Line
+	2850 2900 2850 3000
+Connection ~ 2850 2900
+Connection ~ 2850 2800
+Wire Wire Line
+	2850 2800 2850 2900
+Wire Wire Line
+	2850 2700 2850 2800
+Connection ~ 2850 2700
+Connection ~ 2850 2600
+Wire Wire Line
+	2850 2600 2850 2700
+Wire Wire Line
+	2850 2500 2850 2600
+Connection ~ 2850 2500
+Connection ~ 2850 2400
+Wire Wire Line
+	2850 2400 2850 2500
+Wire Wire Line
+	2850 2300 2850 2400
+Connection ~ 2850 2300
+Connection ~ 2850 2200
+Wire Wire Line
+	2850 2200 2850 2300
+Wire Wire Line
+	2850 2100 2850 2200
+Connection ~ 2850 2100
+Connection ~ 2850 2000
+Wire Wire Line
+	2850 2000 2850 2100
+Wire Wire Line
+	2850 1900 2850 2000
+$Comp
+L scsi-connectors:SCSI_IDC-50_TARGET J1
+U 1 1 60B16130
+P 3050 3100
+F 0 "J1" H 3100 4525 50  0000 C CNN
+F 1 "SCSI_IDC-50_TARGET" H 3100 4434 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical" H 3050 3100 50  0001 C CNN
+F 3 "~" H 3050 3100 50  0001 C CNN
+	1    3050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60C09508
+P 4450 1900
+F 0 "#PWR0106" H 4450 1650 50  0001 C CNN
+F 1 "GND" H 4455 1727 50  0000 C CNN
+F 2 "" H 4450 1900 50  0001 C CNN
+F 3 "" H 4450 1900 50  0001 C CNN
+	1    4450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 60C0B921
+P 2700 1900
+F 0 "#PWR0107" H 2700 1650 50  0001 C CNN
+F 1 "GND" H 2705 1727 50  0000 C CNN
+F 2 "" H 2700 1900 50  0001 C CNN
+F 3 "" H 2700 1900 50  0001 C CNN
+	1    2700 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1900 2850 1900
+Connection ~ 2850 1900
+Wire Wire Line
+	4300 1900 4450 1900
+Connection ~ 4300 1900
+Wire Wire Line
+	2850 3000 2850 3100
+Connection ~ 2850 3000
+Connection ~ 2850 3200
+Connection ~ 2850 3100
+Wire Wire Line
+	2850 3100 2850 3200
+Wire Wire Line
+	4300 3000 4300 3100
+Connection ~ 4300 3000
+Connection ~ 4300 3200
+Connection ~ 4300 3100
+Wire Wire Line
+	4300 3100 4300 3200
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60C529B5
+P 5150 2550
+F 0 "FID1" H 5235 2596 50  0000 L CNN
+F 1 "Fiducial" H 5235 2505 50  0000 L CNN
+F 2 "scsi-50-flipper:cowhead_fsilk" H 5150 2550 50  0001 C CNN
+F 3 "~" H 5150 2550 50  0001 C CNN
+	1    5150 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
