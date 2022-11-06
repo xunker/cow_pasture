@@ -1,4 +1,4 @@
-20164793218991389
+20166460995809575
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85672,3 +85672,10 @@ varistor SIOV
 0
 2
 2
+ide_cable_select_switch
+IDE_ATA_Male_2x20_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x20, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x20 2.54mm double row
+0
+39
+39
